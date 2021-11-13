@@ -1,0 +1,78 @@
+.card{
+    width: 1000px;
+    margin-top: 40px;
+    transition: .2s;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0 0 19px 4px #00000038;
+          box-shadow: 0 0 19px 4px #00000038;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 5;
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 1260px) {
+
+    .card{
+        width: 800px;
+        margin-top: 40px;
+        transition: .2s;
+    }
+    
+    .card:hover{
+        -webkit-box-shadow: 0 0 19px 4px #00000038;
+              box-shadow: 0 0 19px 4px #00000038;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      z-index: 5;
+      border-radius: 5px;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+     
+    .card{
+        width: 400px;
+        margin-top: 40px;
+        transition: .2s;
+    }
+    
+    .card:hover{
+        -webkit-box-shadow: 0 0 19px 4px #00000038;
+              box-shadow: 0 0 19px 4px #00000038;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      z-index: 5;
+      border-radius: 5px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+     
+    .card{
+        width: 300px;
+        margin-top: 40px;
+        transition: .2s;
+    }
+    
+    .card:hover{
+        -webkit-box-shadow: 0 0 19px 4px #00000038;
+              box-shadow: 0 0 19px 4px #00000038;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      z-index: 5;
+      border-radius: 5px;
+    }
+
+}

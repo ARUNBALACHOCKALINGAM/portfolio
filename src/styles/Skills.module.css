@@ -1,0 +1,209 @@
+.skills{
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    right: 200px;
+    
+}
+
+.skillssectiontitle{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.uppercurve{
+    margin-top: 150px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 30%;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 20px;
+}
+
+.lowercurve{
+    margin-top: 0px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 30%;
+    background-color: #f4f4f4;
+    position: relative;
+    box-shadow: inset 2px 7px 11px 3px rgb(0 0 0 / 8%), inset 2px 4px 10px 2px #fff;
+    bottom: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1240px) {
+
+    .skills{
+        position: relative;
+        right: 200px;
+    }
+
+}
+
+@media screen and (max-width: 1020px) {
+
+    .skills{
+        position: relative;
+        right: 250px;
+        margin-top: 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .skills{
+
+        position: relative;
+        left: 0px;
+        margin-left: 100px;
+        display:block;
+        margin-top: 0px;
+        
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+
+    .skills{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .skills{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        position: relative;
+        bottom: 160px;
+        margin-left: 100px;
+
+    }
+
+    .uppercurve{
+     display: none;
+    }
+
+    .lowercurve{
+        margin-top: 0px;
+        display: none;
+       
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        position: relative;
+        bottom: 160px;
+        right: 80px;
+        margin-left: 0px;
+
+    }
+
+    .uppercurve{
+     display: none;
+    }
+
+    .lowercurve{
+        margin-top: 0px;
+        display: none;
+       
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 120px;
+    }
+
+    .skillssectiontitle{
+        padding: 5px;
+        font-size: 1.375rem;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+}
+
+
+
+

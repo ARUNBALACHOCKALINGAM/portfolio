@@ -1,0 +1,59 @@
+.projectsectiontitle{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 10px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.uppercurve{
+    margin-top: 50px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 30%;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 10px;
+}
+
+.lowercurve{
+    margin-top: 0px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 30%;
+    background-color: #f4f4f4;
+    position: relative;
+    box-shadow: inset 2px 7px 11px 3px rgb(0 0 0 / 8%), inset 2px 4px 10px 2px #fff;
+    bottom: 10px;
+}
+
+
+.projectcards{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top:100px;
+    margin-left: 0 auto;
+    
+}
+
+@media screen and (max-width: 620px) {
+
+    .projectsectiontitle{
+        padding: 5px;
+        font-size: 1.375rem;
+    }
+
+    .uppercurve{
+        display: none;
+    }
+    
+    .lowercurve{
+       display: none;
+    }
+
+}
+
+
