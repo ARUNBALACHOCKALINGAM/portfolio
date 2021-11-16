@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b762ef18.chunk.css",
-    "main.js": "/portfolio/static/js/main.796ee91c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.796ee91c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.22c008e7.chunk.css",
+    "main.js": "/portfolio/static/js/main.d22253d7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d22253d7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.aee0013a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.aee0013a.js.map",
     "static/js/2.61ca9eae.chunk.js": "/portfolio/static/js/2.61ca9eae.chunk.js",
@@ -10,22 +10,22 @@
     "static/js/3.46fa1efd.chunk.js": "/portfolio/static/js/3.46fa1efd.chunk.js",
     "static/js/3.46fa1efd.chunk.js.map": "/portfolio/static/js/3.46fa1efd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b762ef18.chunk.css.map": "/portfolio/static/css/main.b762ef18.chunk.css.map",
+    "static/css/main.22c008e7.chunk.css.map": "/portfolio/static/css/main.22c008e7.chunk.css.map",
     "static/js/2.61ca9eae.chunk.js.LICENSE.txt": "/portfolio/static/js/2.61ca9eae.chunk.js.LICENSE.txt",
-    "static/media/3426525.a0e33675.svg": "/portfolio/static/media/3426525.a0e33675.svg",
+    "static/media/3426525.3e992e4a.svg": "/portfolio/static/media/3426525.3e992e4a.svg",
     "static/media/Capture.bb6c03bc.PNG": "/portfolio/static/media/Capture.bb6c03bc.PNG",
-    "static/media/Emoji.e76f100c.svg": "/portfolio/static/media/Emoji.e76f100c.svg",
-    "static/media/Github_black.614cf3fc.svg": "/portfolio/static/media/Github_black.614cf3fc.svg",
+    "static/media/Emoji.748d5461.svg": "/portfolio/static/media/Emoji.748d5461.svg",
+    "static/media/Github_black.88594b0b.svg": "/portfolio/static/media/Github_black.88594b0b.svg",
     "static/media/Group 2.e9cad70c.png": "/portfolio/static/media/Group 2.e9cad70c.png",
     "static/media/Todo.9947123c.png": "/portfolio/static/media/Todo.9947123c.png",
-    "static/media/bgpattern.be1435c6.svg": "/portfolio/static/media/bgpattern.be1435c6.svg",
+    "static/media/bgpattern.33ab0be1.svg": "/portfolio/static/media/bgpattern.33ab0be1.svg",
     "static/media/easybank.1b276e59.PNG": "/portfolio/static/media/easybank.1b276e59.PNG",
-    "static/media/settings.d49eb384.svg": "/portfolio/static/media/settings.d49eb384.svg"
+    "static/media/settings.18fb7ca6.svg": "/portfolio/static/media/settings.18fb7ca6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aee0013a.js",
     "static/js/2.61ca9eae.chunk.js",
-    "static/css/main.b762ef18.chunk.css",
-    "static/js/main.796ee91c.chunk.js"
+    "static/css/main.22c008e7.chunk.css",
+    "static/js/main.d22253d7.chunk.js"
   ]
 }
