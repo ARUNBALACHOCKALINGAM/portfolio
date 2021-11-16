@@ -7,9 +7,12 @@
 }
 
 .thankyou{
+    margin-top: 50px;
     text-align: center;
-    
     font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+   
 }
 
 /* Social Icon Mixin */

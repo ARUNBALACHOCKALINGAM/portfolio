@@ -67,7 +67,7 @@
   position: relative;
   width: 50px;
   height: 50px;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   border-radius: 50%;
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -94,31 +94,31 @@
 }
 
 .social-icon--linkedin {
-  background: #006599;
+  background: #000000;
   color: #fff;
 }
 
 .social-icon--linkedin .tooltip {
-  background: #006599;
+  background: #000000;
   color: currentColor;
 }
 
 .social-icon--linkedin .tooltip:after {
-  border-top-color: #006599;
+  border-top-color: #000000;
 }
 
 .social-icon--twitter {
-  background: #2b97f1;
+  background: #000000;
   color: #fff;
 }
 
 .social-icon--twitter .tooltip {
-  background: #2b97f1;
+  background: #000000;
   color: currentColor;
 }
 
 .social-icon--twitter .tooltip:after {
-  border-top-color: #2b97f1;
+  border-top-color: #000000;
 }
 
 .social-icon--codepen {
@@ -136,31 +136,31 @@
 }
 
 .social-icon--facebook {
-  background: #3b5a9b;
+  background: #000000;
   color: #fff;
 }
 
 .social-icon--facebook .tooltip {
-  background: #3b5a9b;
+  background: #000000;
   color: currentColor;
 }
 
 .social-icon--facebook .tooltip:after {
-  border-top-color: #3b5a9b;
+  border-top-color: #000000;
 }
 
 .social-icon--instagram {
-  background: #527fa6;
+  background: #000000;
   color: #fff;
 }
 
 .social-icon--instagram .tooltip {
-  background: #527fa6;
+  background: #000000;
   color: currentColor;
 }
 
 .social-icon--instagram .tooltip:after {
-  border-top-color: #527fa6;
+  border-top-color: #000000;
 }
 
 .social-icon--dribbble {
@@ -178,17 +178,17 @@
 }
 
 .social-icon--github {
-  background: #4284c0;
+  background: #000000;
   color: #fff;
 }
 
 .social-icon--github .tooltip {
-  background: #4284c0;
+  background: #000000;
   color: currentColor;
 }
 
 .social-icon--github .tooltip:after {
-  border-top-color: #4284c0;
+  border-top-color: #000000;
 }
 
 .social-icon i {
@@ -251,7 +251,7 @@
     position: relative;
     width: 30px;
     height: 30px;
-    margin: 0 0.2rem;
+    margin: 0 2rem;
     border-radius: 50%;
     cursor: pointer;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -265,7 +265,43 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0px;
+    margin: 0px;
    
+  }
+
+  .tooltip {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.5rem 0.8rem;
+    border-radius: 40px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  
+  .tooltip:after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
   }
   
 

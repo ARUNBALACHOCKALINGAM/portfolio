@@ -19,16 +19,18 @@ function Projectcard(props) {
     
     <Card className={classes.card}>
     <CardMedia
+    
       component="img"
+      width="100"
       height="200"
       image={props.image}
       alt={props.alt}
     />
     <CardContent>
-      <Typography gutterBottom variant="h5" component="div">
+      <Typography classes={classes.title} gutterBottom variant="h5" component="div">
         {props.title}
       </Typography>
-      <Typography variant="body2" color="text.secondary">
+      <Typography classes={classes.desc}  variant="body2" color="text.secondary">
        {props.description}
       </Typography>
     </CardContent>

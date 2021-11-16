@@ -13,8 +13,8 @@ import {Card} from "@mui/material"
 function Footer() {
   return (
     <>
-  <Card className={classes.card}>
-        <h1 className={classes.thankyou} >THANKS FOR VISTING !</h1><br/>
+  <Card style={{backgroundColor:"#0596ff"}} className={classes.card}>
+        <h1 className={classes.thankyou} >THANKS FOR VISTING !</h1>
   <div  class="social-icons">
   <a class="social-icon social-icon--instagram">
   <FaInstagram/>

@@ -162,6 +162,16 @@
 
 }
 
+@media screen and (max-width: 520px) {
+
+    .skills{
+        display: block;
+        margin-top: 0px;
+        margin-left: 70px;
+    }
+
+}
+
 @media screen and (max-width: 460px) {
 
     .skills{
@@ -178,7 +188,7 @@
     .skills{
         display: block;
         margin-top: 0px;
-        margin-left: 80px;
+        margin-left: 90px;
     }
 
 }

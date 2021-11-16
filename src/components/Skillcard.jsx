@@ -13,7 +13,7 @@ export default function Skillcard({skill}) {
        <div className={classes.skillcontainer}>   
          <div className={classes.cardone}>
          <div className={classes.image}>
-        <img className={classes.imag} src={skill.image} alt={skill.title} />
+        <img style={{color:"#0596ff"}} className={classes.imag} src={skill.image} alt={skill.title} />
       </div>
 
       <h4 className={classes.title}>{skill.title}</h4>
