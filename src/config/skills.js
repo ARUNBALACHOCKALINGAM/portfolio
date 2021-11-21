@@ -1,7 +1,9 @@
 import backImg from "../assets/settings.svg";
+import frontImg from "../assets/frontend.svg";
+import designImg from "../assets/paint.svg";
 export const frontend = [
   {
-    image: backImg, 
+    image: frontImg, 
     title: "FRONTEND",
     skills: [
       "React JS",
@@ -41,7 +43,7 @@ export const backend = [
 
 export const design= [
   {
-    image: backImg, 
+    image: designImg, 
     title: "DESIGN",
     skills: [
       "Photoshop",

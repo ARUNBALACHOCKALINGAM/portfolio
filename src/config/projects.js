@@ -1,6 +1,8 @@
 import blog from "../assets/Capture.PNG"
 import Todo from "../assets/Todo.png"
 import bank from "../assets/easybank.PNG"
+import ams from "../assets/Crop_1.svg"
+import chat from "../assets/chat_black_24dp.svg"
 
 
 export const projects=[
@@ -28,6 +30,22 @@ export const projects=[
         repolink:"https://github.com/ARUNBALACHOCKALINGAM/e-bank-management",
         title:"BANK MANAGEMENT",
         description:"Todo app using HTML, CSS and vanila JavaScript. I have used  MONGODB as the database and Node.js as backend inorder to create this application",
+    },
+    {
+        image:ams,
+        alt:"Assignment management system",
+        link:"https://619a08281f0c9e00085ec480--sharp-bhaskara-a29e1c.netlify.app/",
+        repolink:"https://github.com/ARUNBALACHOCKALINGAM/AMS",
+        title:"AMS",
+        description:"This project/application addresses the various problems that are faced in our current mode of uploading assignments and adds on it’s own features that makes it a lot easier to manage and upload assignments on time.",
+    },
+    {
+        image:chat,
+        alt:"CHAT APP",
+        link:"",
+        repolink:"https://github.com/ARUNBALACHOCKALINGAM/chatappfrontend",
+        title:"CHAT APPLICATION",
+        description:"A live chat application made using react ",
     },
     {
         image:"",

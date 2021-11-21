@@ -17,6 +17,13 @@
     overflow-y: scroll;
 }
 
+.cardone::-webkit-scrollbar {
+    display: none;
+  }
+  .cardtwo::-webkit-scrollbar {
+    display: none;
+  }
+
 .title{
     display: none;
 }

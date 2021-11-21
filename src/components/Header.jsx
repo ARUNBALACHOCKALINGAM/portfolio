@@ -3,7 +3,7 @@ import React from "react";
 
 //assets
 
-import logo from "../assets/Group 2.png"
+import logo from "../assets/buymeacoffee.svg"
 import GitHubIcon from '../assets/Github_white.svg';
 
 //styles
@@ -41,7 +41,12 @@ function Header(){
     return(
         <>
           <div className={classes.nav}>
-              <img src={logo} className={classes.profile} alt="profile"/>
+          
+                     <img  src={logo} className={classes.profile} alt="profile"/>
+                     <div className={classes.tooltip}>Buy me a coffee</div>
+          
+              
+              
               <div className={classes.navlinks}>
               <h1 onClick={showSkills} className={classes.links}>SKILLS</h1>
               <h1 onClick={showProjects} className={classes.links}>PROJECTS</h1>

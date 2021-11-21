@@ -108,7 +108,7 @@
 }
 
 .social-icon--twitter {
-  background: #000000;
+  background:black;
   color: #fff;
 }
 
@@ -121,33 +121,6 @@
   border-top-color: #000000;
 }
 
-.social-icon--codepen {
-  background: #000;
-  color: #fff;
-}
-
-.social-icon--codepen .tooltip {
-  background: #000;
-  color: currentColor;
-}
-
-.social-icon--codepen .tooltip:after {
-  border-top-color: #000;
-}
-
-.social-icon--facebook {
-  background: #000000;
-  color: #fff;
-}
-
-.social-icon--facebook .tooltip {
-  background: #000000;
-  color: currentColor;
-}
-
-.social-icon--facebook .tooltip:after {
-  border-top-color: #000000;
-}
 
 .social-icon--instagram {
   background: #000000;

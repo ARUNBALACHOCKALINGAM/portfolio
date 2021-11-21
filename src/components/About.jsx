@@ -27,7 +27,7 @@ function About() {
           <h1 className={classes.line} style={{fontWeight:"600",fontFamily:"'Montserrat', sans-serif",marginTop:"-20px"}}>I <span className={classes.code}>code</span>, <span className={classes.design}>design</span> and <span className={classes.write}>write. </span></h1>
           <h1 className={classes.desc} style={{fontWeight:"600",fontFamily:"'Montserrat', sans-serif",marginTop:"-20px"}}>I <span className={classes.code}>code</span>, <span className={classes.design}>design</span> and <span className={classes.write}>write. </span></h1>
           <p className={classes.para}>I’m currently pursuing B.tech at VIT Amaravati. I’m passionate to make <br/> other people’s lives better through technology and am <br/> constantly looking to learn new things every day</p>
-          <Button  className={classes.button}  style={{marginTop:"25px",backgroundColor:primary,fontFamily:"'Montserrat', sans-serif",color:"black"}} variant="contained"><h1 className={classes.githubtext}>See GitHub Profile</h1><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></Button><br/>
+          <Button href="https://github.com/ARUNBALACHOCKALINGAM" elevation={4} className={classes.button}  style={{marginTop:"25px",backgroundColor:primary,fontFamily:"'Montserrat', sans-serif",color:"black"}} variant="contained"><h1 className={classes.githubtext}>See GitHub Profile</h1><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></Button><br/>
         
       </div>
       <div className={classes.imgcontainer}>
