@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import classes from "../styles/Skillwheel.module.css"
 
 
@@ -14,11 +14,11 @@ function Skillwheel(props) {
   props.onchange(skill);
 
   function handleNext(){
-    if(skill=="FRONT END"){
+    if(skill==="FRONT END"){
         setSkill("BACK END")
-    }else if(skill=="BACK END"){
+    }else if(skill==="BACK END"){
       setSkill("DESIGN")
-    }else if(skill=="DESIGN"){
+    }else if(skill==="DESIGN"){
       setSkill("FRONT END")
     }
 
@@ -27,11 +27,11 @@ function Skillwheel(props) {
   }
 
   function handlePrev(){
-    if(skill=="FRONT END"){
+    if(skill==="FRONT END"){
       setSkill("BACK END")
-  }else if(skill=="BACK END"){
+  }else if(skill==="BACK END"){
     setSkill("DESIGN")
-  }else if(skill == "DESIGN"){
+  }else if(skill === "DESIGN"){
     setSkill("FRONT END")
   }
 

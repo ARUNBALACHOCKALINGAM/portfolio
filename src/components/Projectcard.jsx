@@ -1,13 +1,11 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { projects } from "../config/projects";
-import { maxWidth } from "@mui/system";
+
 
 
 //styles
@@ -35,8 +33,9 @@ function Projectcard(props) {
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small">VIEW CODE</Button>
-      <Button size="small">VIEW SITE</Button>
+      {console.log(props.link)}
+      <Button  href={props.repolink} size="small">VIEW CODE</Button>
+      {props.link!=="" ? <Button href={props.link} size="small">VIEW SITE</Button> : <Button style={{color:"#d32f2f",}} size="small">Yet to deploy</Button>}
     </CardActions>
   </Card>
   

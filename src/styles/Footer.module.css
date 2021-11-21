@@ -7,7 +7,7 @@
 }
 
 .thankyou{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     font-size: 1.75rem;
     font-weight: 400;
@@ -205,7 +205,7 @@
 
     .thankyou{
         text-align: center;
-        padding: 30px;
+        padding: 0px;
         font-size: 1.25rem;
     }
 }

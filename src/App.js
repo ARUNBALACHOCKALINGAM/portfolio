@@ -4,8 +4,6 @@ import './App.css';
 import Header from "./components/Header"
 import About from "./components/About";
 import Skills from './components/Skills';
-import Projectcard from './components/Projectcard';
-import Skillcard from './components/Skillcard';
 import Project from './components/Project';
 import Footer from './components/Footer';
 

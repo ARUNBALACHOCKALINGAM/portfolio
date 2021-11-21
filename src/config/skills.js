@@ -44,8 +44,8 @@ export const design= [
     image: backImg, 
     title: "DESIGN",
     skills: [
-      "Adobe photoshop",
-      "Adobe illustrator",
+      "Photoshop",
+      "Illustrator",
       "Adobe XD",
       "Figma",
     ],

@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Card } from "@mui/material";
-
 import classes from "../styles/Skillcard.module.css"
 
 export default function Skillcard({skill}) {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, {  } from "react"
 
 
 //styles
@@ -20,7 +20,7 @@ function Project() {
      <div className={classes.projectcards}>
        {projects.map((project)=>{
          return (
-          <Projectcard image={project.image} title={project.title} description={project.description}/>
+          <Projectcard image={project.image} title={project.title} description={project.description} link={project.link} repolink={project.repolink}/>
          )
        })}
         

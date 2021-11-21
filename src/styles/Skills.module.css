@@ -23,6 +23,7 @@
     background-color: #f4f4f4;
     position: relative;
     top: 20px;
+    box-shadow: none;
 }
 
 .lowercurve{
@@ -34,6 +35,7 @@
     position: relative;
     box-shadow: inset 2px 7px 11px 3px rgb(0 0 0 / 8%), inset 2px 4px 10px 2px #fff;
     bottom: 20px;
+    box-shadow: none;
 }
 
 
@@ -111,6 +113,19 @@
        
     }
 
+}
+
+@media screen and (max-height: 650px) {
+
+       .uppercurve{
+        margin-top: 150px;
+        height: 7vh;
+       }
+   
+       .lowercurve{
+           margin-top: 0px;
+           height: 7vh;
+       }
 }
 
 @media screen and (max-width: 580px) {

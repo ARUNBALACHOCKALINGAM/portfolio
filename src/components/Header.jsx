@@ -1,9 +1,10 @@
 import React from "react";
-import {Router,Link} from "react-dom";
+
 
 //assets
 
 import logo from "../assets/Group 2.png"
+import GitHubIcon from '../assets/Github_white.svg';
 
 //styles
 import classes from "../styles/Header.module.css"
@@ -48,6 +49,7 @@ function Header(){
               </div>
               <div className={classes.mobcontent}>
                  <h1 style={{fontWeight:"200",fontFamily:"'Montserrat', sans-serif",color:"white"}}>Hi, I’m <span style={{letterSpacing:"1px"}}>Arun.</span><br/>This is my portfolio :)</h1>
+                 <span  className={classes.icon}><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></span>
               </div>
           </div>
         </>

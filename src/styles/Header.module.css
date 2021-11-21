@@ -12,6 +12,29 @@
     
 }
 
+
+@keyframes imagrotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.githubicon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    animation: imagrotate 0.8s ease-in-out 1s forwards 1;
+}
+
+ 
+
+
+
 .profile{
    width: 50px;
    height: 50px;

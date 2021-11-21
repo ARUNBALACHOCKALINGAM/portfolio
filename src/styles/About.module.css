@@ -64,11 +64,22 @@
 
 
 
+
 .wave{
     margin-left: 40px;
     width: 61px;
     height: 65px;
+    transition: 0.2s;
 }
+
+.wave:hover {
+    transform: scale(1) translatey(-5px) translatex(5px);
+    text-shadow: 0 20px 20px rgba(0,0,0,.3);
+  }
+
+  
+  
+
 
 .imgcontainer{
     width: 50%;
