@@ -22,7 +22,7 @@ export default function Skills() {
   return (
    <>
    <div className={classes.uppercurve}></div>
-   <Card className={classes.card}  style={{marginTop:"0px",backgroundColor:"#0596ff"}}>
+   <Card className={classes.card}  style={{backgroundColor:"#0596ff"}}>
      <h1 className={classes.skillssectiontitle}>MY SKILLS</h1>
    </Card>
    <div className={classes.lowercurve}></div>

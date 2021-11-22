@@ -11,57 +11,6 @@
 }
 
 
-.social-icon--twitter .tooltip {
-    background: white;
-    color: currentColor;
-  }
-  
-  .social-icon--twitter .tooltip:after {
-    border-top-color: white;
-  }
-  
-
-.social-icon:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: translate(-50%, -150%);
-            transform: translate(-50%, -150%);
-  }
-
-.tooltip {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    padding: 0.8rem 1rem;
-    border-radius: 40px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    opacity: 0;
-    pointer-events: none;
-    text-transform: uppercase;
-    -webkit-transform: translate(-50%, -100%);
-            transform: translate(-50%, -100%);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    z-index: 1;
-  }
-  
-  .tooltip:after {
-    display: block;
-    position: absolute;
-    bottom: 1px;
-    left: 50%;
-    width: 0;
-    height: 0;
-    content: "";
-    border: solid;
-    border-width: 10px 10px 0 10px;
-    border-color: transparent;
-    -webkit-transform: translate(-50%, 100%);
-            transform: translate(-50%, 100%);
-  }
-
 @keyframes imagrotate {
 
     0%{
@@ -73,12 +22,6 @@
     }
 }
 
-.githubicon{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    animation: imagrotate 0.8s ease-in-out 1s forwards 1;
-}
 
  
 
@@ -143,9 +86,21 @@
         padding: 10px;
     
     }
+
+    .githubicon{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        animation: imagrotate 0.8s ease-in-out 1s forwards 1;
+    }
+    
+
+ 
+
     .profile{
         width: 25%;
         height: 25%;
+        border-radius: 50%;
         text-align: center;
         align-items: center;
         margin: 0px;
@@ -159,7 +114,8 @@
 
     .mobcontent{
         display: block;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding: 40px 0px;
     }
 
     
@@ -178,10 +134,25 @@
         text-align: center;
         min-height: 40vh;
         background-color: black;
-        color:white;
+        color:black;
         padding: 10px;
     
     }
+
+    .githubicon{
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        animation: imagrotate 0.8s ease-in-out 1s forwards 1;
+       
+    }
+
+    .gitlink{
+        width: 50px;
+        height: 50px;
+
+    }
+
     .profile{
         width: 25%;
         height: 25%;
@@ -199,7 +170,7 @@
     .mobcontent{
         display: block;
         font-size: 0.8rem;
-    
+        padding: 40px 0px;
     }
 }
 

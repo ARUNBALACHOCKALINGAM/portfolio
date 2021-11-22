@@ -4,13 +4,15 @@ import React from "react";
 //assets
 
 import logo from "../assets/buymeacoffee.svg"
+import moblogo from "../assets/arun.jpg"
 import GitHubIcon from '../assets/Github_white.svg';
-
+import LinkedIn from '../assets/LinkedIN_white.svg'
 //styles
 import classes from "../styles/Header.module.css"
 
 
 //material-ui components
+import Button from "@mui/material/Button";
 
 //components
 
@@ -41,12 +43,7 @@ function Header(){
     return(
         <>
           <div className={classes.nav}>
-          
-                     <img  src={logo} className={classes.profile} alt="profile"/>
-                     <div className={classes.tooltip}>Buy me a coffee</div>
-          
-              
-              
+              <img style={{borderRadius:"50%",}}  src={moblogo} className={classes.profile} alt="profile"/>
               <div className={classes.navlinks}>
               <h1 onClick={showSkills} className={classes.links}>SKILLS</h1>
               <h1 onClick={showProjects} className={classes.links}>PROJECTS</h1>
@@ -54,7 +51,7 @@ function Header(){
               </div>
               <div className={classes.mobcontent}>
                  <h1 style={{fontWeight:"200",fontFamily:"'Montserrat', sans-serif",color:"white"}}>Hi, I’m <span style={{letterSpacing:"1px"}}>Arun.</span><br/>This is my portfolio :)</h1>
-                 <span  className={classes.icon}><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></span>
+                 <a className={classes.gitlink} href="https://github.com/ARUNBALACHOCKALINGAM/"><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></a><a href="https://www.linkedin.com/in/arun-bala-34308620a/"><img style={{marginLeft:"15px"}} className={classes.githubicon} src={LinkedIn} alt="githubicon" /></a>
               </div>
           </div>
         </>

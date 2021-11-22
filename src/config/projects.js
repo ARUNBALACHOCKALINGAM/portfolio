@@ -37,7 +37,7 @@ export const projects=[
         link:"https://619a08281f0c9e00085ec480--sharp-bhaskara-a29e1c.netlify.app/",
         repolink:"https://github.com/ARUNBALACHOCKALINGAM/AMS",
         title:"AMS",
-        description:"This project/application addresses the various problems that are faced in our current mode of uploading assignments and adds on it’s own features that makes it a lot easier to manage and upload assignments on time.",
+        description:"This project/application addresses the various problems that are faced in our current mode of uploading assignments",
     },
     {
         image:chat,

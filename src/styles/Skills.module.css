@@ -168,6 +168,8 @@
         display: block;
         margin-top: 0px;
         margin-left: 120px;
+        position: relative;
+        bottom: 120px;
     }
 
     .skillssectiontitle{
@@ -226,6 +228,8 @@
         margin-top: 0px;
         margin-left: 50px;
     }
+
+  
 
 }
 

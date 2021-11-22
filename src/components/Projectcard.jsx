@@ -15,7 +15,7 @@ import classes from "../styles/Projectcard.module.css"
 function Projectcard(props) {
   return (
     
-    <Card className={classes.card}>
+    <Card  className={classes.card}>
     <CardMedia
     
       component="img"
@@ -25,17 +25,17 @@ function Projectcard(props) {
       alt={props.alt}
     />
     <CardContent>
-      <Typography classes={classes.title} gutterBottom variant="h5" component="div">
+      <Typography style={{ color: "#000000",fontSize: "1.5rem",letterSpacing: "5px",fontFamily:"Montserrat,sans-seriff",fontWeight:"600"}} className={classes.title} gutterBottom variant="h5" component="div">
         {props.title}
       </Typography>
-      <Typography classes={classes.desc}  variant="body2" color="text.secondary">
+      <Typography style={{fontFamily:"Montserrat,sans-seriff"}} className={classes.desc}  variant="body2" color="text.secondary">
        {props.description}
       </Typography>
     </CardContent>
     <CardActions>
       {console.log(props.link)}
-      <Button  href={props.repolink} size="small">VIEW CODE</Button>
-      {props.link!=="" ? <Button href={props.link} size="small">VIEW SITE</Button> : <Button style={{color:"#d32f2f",}} size="small">Yet to deploy</Button>}
+      <Button  style={{fontFamily:"Montserrat,sans-seriff"}}  href={props.repolink} size="small">VIEW CODE</Button>
+      {props.link!=="" ? <Button  style={{fontFamily:"Montserrat,sans-seriff"}} href={props.link} size="small">VIEW SITE</Button> : <Button style={{color:"#d32f2f",fontFamily:"Montserrat,sans-seriff"}} size="small">Yet to deploy</Button>}
     </CardActions>
   </Card>
   

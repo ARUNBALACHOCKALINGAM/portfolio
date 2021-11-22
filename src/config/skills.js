@@ -1,6 +1,8 @@
 import backImg from "../assets/settings.svg";
 import frontImg from "../assets/frontend.svg";
 import designImg from "../assets/paint.svg";
+
+
 export const frontend = [
   {
     image: frontImg, 
