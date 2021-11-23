@@ -109,11 +109,11 @@
 }
 
 .code:hover{
-    background-color: burlywood;
+   color: black;
 }
 
 .write:hover{
-    background-color: palevioletred;
+    color: black;
 }
 
 .design:hover{
