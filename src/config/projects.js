@@ -29,7 +29,7 @@ export const projects=[
         link:"https://ebank-management.herokuapp.com/",
         repolink:"https://github.com/ARUNBALACHOCKALINGAM/e-bank-management",
         title:"BANK MANAGEMENT",
-        description:"Todo app using HTML, CSS and vanila JavaScript. I have used  MONGODB as the database and Node.js as backend inorder to create this application",
+        description:"A prototype of a bank-management system developed using HTML, CSS and javascript",
     },
     {
         image:ams,

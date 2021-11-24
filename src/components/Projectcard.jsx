@@ -15,9 +15,8 @@ import classes from "../styles/Projectcard.module.css"
 function Projectcard(props) {
   return (
     
-    <Card  className={classes.card}>
+    <Card style={{overflow:"scroll"}}className={classes.card}>
     <CardMedia
-    
       component="img"
       width="100"
       height="200"

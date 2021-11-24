@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 //components
@@ -12,14 +12,22 @@ import LoadingIcon from './components/LoadingIcon';
 
 
 function App() {
+  const [showLoader,setLoader] = useState(true);
+
+  setTimeout(()=>{setLoader(false)},1000)
+
   return (
     <div className="App">
          
-          <Header/>
-          <About/>
-          <Skills/>
-          <Project/>
-          <Footer/>
+    {showLoader ? <LoadingIcon/> : 
+    <div className="App">
+    <Header/>
+    <About/>
+    <Skills/>
+    <Project/>
+    <Footer/>
+    </div>
+    }
       
     </div>
   );

@@ -3,7 +3,13 @@
     max-height:60vh;
     margin-top: 40px;
     transition: .2s;
+    overflow: scroll;
 }
+
+.card::-webkit-scrollbar {
+    display: none;
+  }
+
 
 .card:hover{
     -webkit-box-shadow: 0 0 19px 4px #00000038;
@@ -14,11 +20,7 @@
   border-radius: 5px;
 }
 
-.title{
-    color: #424242;
-    font-size: 1rem;
-    letter-spacing: 5px;
-}
+
 
 
 

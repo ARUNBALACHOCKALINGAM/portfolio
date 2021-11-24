@@ -46,7 +46,7 @@ function Skillwheel(props) {
       <div className={classes.skilltoggle}>
         <ArrowLeftIcon onClick={handlePrev} style={{width:"60px",height:"60px",marginLeft:"50px",position:"relative",left:"10px",color:"#0596ff"}}/>
        <h1 className={classes.skilltogglename} style={{minWidth:"135px",letterSpacing:"1px",fontWeight:"800",fontSize:"1.375rem",display:"inline-block",whiteSpace:"nowrap",textAlign:"center"}}>{skill}</h1>
-       <ArrowRightIcon onClick={handleNext} style={{width:"60px",height:"60px",marginLeft:"10px",position:"relative",left:"-10px",color:"#0596ff"}}/>,
+       <ArrowRightIcon onClick={handleNext} style={{width:"60px",height:"60px",marginLeft:"10px",position:"relative",left:"-10px",color:"#0596ff"}}/>
       </div>
       </div>
       <div className={classes.lefticon}>
