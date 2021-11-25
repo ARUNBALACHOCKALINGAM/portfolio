@@ -15,8 +15,8 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Projectcard(props) {
   return (
-    <AnimationOnScroll  animateIn="animate__bounceIn" animateOut="animate_fadeOut">
-    <Card style={{overflow:"scroll"}}className={classes.card}>
+    <AnimationOnScroll animateOnce="true" animateIn="animate__bounceIn" animateOut="animate_fadeOut">
+    <Card style={{overflow:"scroll"}} className={classes.card}>
     <CardMedia
       component="img"
       width="100"
