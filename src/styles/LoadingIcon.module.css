@@ -1,8 +1,14 @@
 .loader{
-  margin: 400px auto;
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #0596ff;
- 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bg{
+  height: 100vh;
+  background-color: black;
 }

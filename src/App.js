@@ -14,7 +14,7 @@ import LoadingIcon from './components/LoadingIcon';
 function App() {
   const [showLoader,setLoader] = useState(true);
 
-  setTimeout(()=>{setLoader(false)},1000)
+  setTimeout(()=>{setLoader(false)},2550)
 
   return (
     <div className="App">

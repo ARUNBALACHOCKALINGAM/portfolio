@@ -30,6 +30,7 @@
 
 .learning{
 
+    font-size: 1.2rem;
     color: #0596ff;
     letter-spacing: 5px;
 
@@ -74,7 +75,7 @@
 
 .skillslst{
     color: #424242;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 5px;
 
 }
@@ -98,7 +99,7 @@
     }
 
     .learning{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 

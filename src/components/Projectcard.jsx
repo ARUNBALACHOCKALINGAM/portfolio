@@ -10,11 +10,12 @@ import Typography from '@mui/material/Typography';
 
 //styles
 import classes from "../styles/Projectcard.module.css"
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 function Projectcard(props) {
   return (
-    
+    <AnimationOnScroll  animateIn="animate__bounceIn" animateOut="animate_fadeOut">
     <Card style={{overflow:"scroll"}}className={classes.card}>
     <CardMedia
       component="img"
@@ -37,6 +38,7 @@ function Projectcard(props) {
       {props.link!=="" ? <Button  style={{fontFamily:"Montserrat,sans-seriff"}} href={props.link} size="small">VIEW SITE</Button> : <Button style={{color:"#d32f2f",fontFamily:"Montserrat,sans-seriff"}} size="small">Yet to deploy</Button>}
     </CardActions>
   </Card>
+  </AnimationOnScroll>
   
   )
 }

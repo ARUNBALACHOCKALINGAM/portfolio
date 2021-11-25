@@ -5,7 +5,7 @@ import Skillcard from "./Skillcard";
 import {frontend,backend,design} from "../config/skills";
 
 import Skillwheel from "./Skillwheel";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Card } from "@mui/material";
 import { motion } from "framer-motion"
 import classes from "../styles/Skills.module.css"
@@ -20,8 +20,8 @@ export default function Skills() {
   }
 
   return (
-   <>
-   <motion.div   animate={{ width:[0,600,1800],opacity: [0,1]}}
+   <AnimationOnScroll animateIn="animate__fadeIn">
+    <motion.div   animate={{ width:["0%","50%","100%"],opacity: [0,1]}}
   transition={{
     delay: 1,
     x: { type: "spring", stiffness: 100 },
@@ -30,12 +30,12 @@ export default function Skills() {
    <Card className={classes.card}  style={{backgroundColor:"#0596ff"}}>
      <h1 className={classes.skillssectiontitle}>MY SKILLS</h1>
    </Card>
-   <motion.div animate={{ width:[0,600,1800],opacity: [0,1]}}
+   <motion.div animate={{ width:["0%","50%","100%"],opacity: [0,1]}}
   transition={{
     delay: 1,
     x: { type: "spring", stiffness: 100 },
     default: { duration: 2 },
-  }} className={classes.uppercurve} className={classes.lowercurve}></motion.div>
+  }} className={classes.lowercurve}></motion.div>
     <section className={classes.skills} id="skills">
       
 
@@ -55,6 +55,6 @@ export default function Skills() {
 
       </div>
     </section>
-    </>
+    </AnimationOnScroll>
   );
 }

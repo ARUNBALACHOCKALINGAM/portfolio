@@ -6,7 +6,7 @@ import GitHubIcon from '../assets/Github_black.svg';
 //styles
 import classes from "../styles/About.module.css"
 import { colors } from "../config/colors";
-
+import { motion } from "framer-motion"
 //material-ui comps
 import { Button } from "@mui/material"
 
@@ -30,9 +30,9 @@ function About() {
           <Button href="https://github.com/ARUNBALACHOCKALINGAM" elevation={4} className={classes.button}  style={{marginTop:"25px",backgroundColor:primary,fontFamily:"'Montserrat', sans-serif",color:"black"}} variant="contained"><h1 className={classes.githubtext}>See GitHub Profile</h1><img className={classes.githubicon} src={GitHubIcon} alt="githubicon" /></Button><br/>
         
       </div>
-      <div className={classes.imgcontainer}>
+      <motion.div animate={{x:[1000,0]}} transition={{type:"spring",default:{duration:1}}} className={classes.imgcontainer}>
           <img alt="illustration" style={{textAlign:"center"}} className={classes.bg} src={coder}/>
-      </div>
+      </motion.div>
   </div>
     </>
   )
